@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --color0: #c5ebd6;
+    --color1: #83e1ad;
+    --color2: #3ddc84;
+    --color3: #2fa866;
+    --color4: #1a5c37;
+    --color5: #063d1e;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body{
+    background-color:var(--color0);
+}

@@ -1,0 +1,177 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+:root{
+    --color0: #c5ebd6;
+    --color1: #83e1ad;
+    --color2: #3ddc84;
+    --color3: #2fa866;
+    --color4: #1a5c37;
+    --color5: #063d1e;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color1);
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, var(--color5), var(--color2));
+    height: 250px;
+    position: relative;
+}
+
+header h1{
+    padding-top: 1em;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.5em;
+}
+
+
+header p{
+    width:400px;
+    margin: auto;
+    padding-top: 2em;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+header  nav{
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: .7em;
+}
+
+header nav a{
+    margin-right: 1.5em;
+    bottom: 0;
+    color: #fff;
+    text-decoration: none;
+    padding-left: .8em;
+}
+
+main{
+    width: 850px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 0 0 20px 20px;
+}
+
+article{
+    width: 800px;
+    margin: auto;
+}
+
+main article h1{
+    text-align: left;
+    padding-top: 1em;
+    font-size: 2em;
+    font-family: android, sans-serif;
+    color: var(--color5)
+    
+}
+
+.destaque{
+    color: var(--color4);
+    font-weight: bold;
+}
+
+main article h2{
+    text-align: left;
+    font-size: 1.5em;
+    font-family: android, sans-serif;
+    color: var(--color5);
+    background-image: linear-gradient(to right, var(--color0), white);
+    padding: 0;
+}
+
+article p{
+    text-indent: 2em;
+    font-size: 1.2em;
+    padding: 1em 0;
+    text-align: left;
+}
+
+article aside{
+    margin-top: 1.5em;
+    text-align: left;
+    background-color: var(--color0);
+    padding: 2.2em .7em 1em .7em;
+    border-radius: 20px;
+    position: relative;
+}
+
+article aside h3{
+    background-color: var(--color3);
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    color: white;
+}
+
+article aside ul{
+    list-style-type: none;
+}
+
+article aside li{
+    font-size: 1.5em;  
+}
+
+article aside li a{
+    color: black;
+
+}
+
+
+.checkmark {
+    font-weight: bolder;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+article img{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    background-color: var(--color5);
+    padding: 1em 0;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: var(--color4);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: .7em 0;
+}
